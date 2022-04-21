@@ -1,0 +1,174 @@
+body{
+	/*font-family: 'Roboto', sans-serif;*/
+    font-family: 'Russo One', sans-serif;
+	background-color: black;
+	margin:0px;
+	padding:0px;
+	border:0px;
+    user-select: none;
+}
+#serce{
+    width: 48px;
+    height: 48px;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    bottom: calc(50% - 24px);
+    right: calc(50% - 24px);
+
+    background-color: rgb(0, 130, 0);
+    transition-duration: 0s;
+    clip-path: polygon(100% 12.5%, 93.75% 12.5%, 93.75% 6.25%, 87.5% 6.25%, 87.5% 0%, 75% 0%, 75% 6.25%, 62.5% 6.25%, 62.5% 12.5%, 56.25% 12.5%, 56.25% 25%, 43.75% 25%, 43.75% 12.5%, 37.5% 12.5%, 37.5% 6.25%, 25% 6.25%, 25% 0%, 12.5% 0%, 12.5% 6.25%, 6.25% 6.25%, 6.25% 12.5%, 0% 12.5%, 0% 62.5%, 12.5% 62.5%, 12.5% 75%, 25% 75%, 25% 87.5%, 37.5% 87.5%, 37.5% 100%, 62.5% 100%, 62.5% 87.5%, 75% 87.5%, 75% 75%, 87.5% 75%, 87.5% 62.5%, 100% 62.5%);
+}
+
+#tarcza{
+    width: 128px;
+    height: 128px;
+    background-color: rgb(20, 20, 100);
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    bottom: calc(50% - 64px);
+    right: calc(50% - 64px);
+    transition-duration: 0.085s;
+    clip-path: polygon(100% 50%, 85% 0, 85% 100%);
+}
+#pocisk{
+    width: 48px;
+    height: 48px;
+    background-color: rgb(130, 255, 255);
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    bottom: calc(20% - 64px);
+    right: calc(30% - 64px);
+    transition-duration: 1s;
+    clip-path: polygon(25% 20%, 25% 40%, 100% 40%, 100% 60%, 25% 60%, 25% 80%, 0% 50%);
+    display: none;
+}
+#Game{
+    width: 800px;
+    height: 800px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    position: relative;
+    
+    /*bottom: calc(30% - 64px);
+    right: calc(30% - 64px);*/
+}
+#StartBtn{
+    width: 250px;
+    height: 100px;
+    margin:30px;
+    padding: 0px;
+}
+#StartBtn:hover{
+    content: url('Fight2.png');
+}
+/*#LifeTxt{
+    font-size: 30px;
+    color: rgb(0, 130, 0);
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    font-weight: bold;
+}*/
+#Score{
+    font-size: 30px;
+    color: rgb(0, 130, 0);
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    font-weight: bold;
+}
+#tytul{
+    margin-top: 40px;
+    margin-bottom: 100px;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
+.mainTxt{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+#option1{
+    color: rgb(190, 190, 190);
+
+}
+#serduszko{
+    width: 36px;
+    height: 36px;
+    background-color: rgb(0, 130, 0);
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 222px;
+    left: calc(50% - 150px);
+
+
+    transition-duration: 0.1s;
+    clip-path: polygon(100% 12.5%, 93.75% 12.5%, 93.75% 6.25%, 87.5% 6.25%, 87.5% 0%, 75% 0%, 75% 6.25%, 62.5% 6.25%, 62.5% 12.5%, 56.25% 12.5%, 56.25% 25%, 43.75% 25%, 43.75% 12.5%, 37.5% 12.5%, 37.5% 6.25%, 25% 6.25%, 25% 0%, 12.5% 0%, 12.5% 6.25%, 6.25% 6.25%, 6.25% 12.5%, 0% 12.5%, 0% 62.5%, 12.5% 62.5%, 12.5% 75%, 25% 75%, 25% 87.5%, 37.5% 87.5%, 37.5% 100%, 62.5% 100%, 62.5% 87.5%, 75% 87.5%, 75% 75%, 87.5% 75%, 87.5% 62.5%, 100% 62.5%);
+}
+/* polygon(100% 12.5%, 93.75% 12.5%, 93.75% 6.25%, 87.5% 6.25%, 87.5% 0%, 75% 0%, 75% 6.25%, 62.5% 6.25%, 62.5% 12.5%, 56.25% 12.5%, 56.25% 25%, 43.75% 25%, 43.75% 12.5%, 37.5% 12.5%, 37.5% 6.25%, 25% 6.25%, 25% 0%, 12.5% 0%, 12.5% 6.25%, 6.25% 6.25%, 6.25% 12.5%, 0% 12.5%, 0% 62.5%, 12.5% 62.5%, 12.5% 75%, 25% 75%, 25% 87.5%, 37.5% 87.5%, 37.5% 100%, 62.5% 100%, 62.5% 87.5%, 75% 87.5%, 75% 75%, 87.5% 75%, 87.5% 62.5%, 100% 62.5%); */
+/* polygon(75% 12.5%, 62.5% 12.5%, 62.5% 50%, 75% 50%, 75% 62.5%, 87.5% 62.5%, 87.5% 75%, 81.25% 75%, 81.25% 81.25%, 68.75% 81.25%, 68.75% 87.5%, 31.25% 87.5%, 31.25% 81.25%, 18.75% 81.25%, 18.75% 75%, 12.5% 75%, 12.5% 62.5%, 25% 62.5%, 25% 50%, 25% 12.5%, 37.5% 12.5%, 37.5% 50%, 25% 50%, 25% 62.5%, 25% 68.75%, 37.5% 68.75%, 37.5% 75%, 62.5% 75%, 62.5% 68.75%, 75% 68.75%, 75% 62.5%, 75% 50%, 75% 12.5%, 75% 12.5%, 75% 12.5%, 75% 12.5%); */
+#MiejsceNaOdznaki{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding: 0px;
+
+}
+.Gwiazdka{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    padding: 0px;
+    margin-left: 20px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    float: left;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+
+}
+#g3{
+    margin-left: calc(50% - 220px);
+
+}
+#g0{
+    margin-left: 60px;
+
+}
+#postep1{
+    border: 3px solid white;
+    width: 320px;
+    height: 35px;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 50px;
+    left: 10px;
+
+}
+#postep2{
+    background-color: rgb(0, 130, 0);
+    width: 306px;
+    height: 21px;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+    transition-timing-function: linear;
+
+}
